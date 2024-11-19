@@ -297,7 +297,7 @@
 	background-color: transparent;
 }
 
-.card__like-button:focus {
+.card__like-button:focus,.footer-button__save:focus {
 	box-shadow: 2px 2px 0px 0px var(--accent-color);
 	outline: none;
 	transition: box-shadow 0.3s ease;
