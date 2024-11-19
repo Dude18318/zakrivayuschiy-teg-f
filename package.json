@@ -1,0 +1,30 @@
+{
+  "name": "zakrivayuschiy-teg-f",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint **/*.css",
+    "lintfix": "stylelint **/*.css --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run lint && npm run lintfix",
+    "atomize": "atomizer -o ./dist/output.css --watch index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dude18318/zakrivayuschiy-teg-f.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dude18318/zakrivayuschiy-teg-f/issues"
+  },
+  "homepage": "https://github.com/Dude18318/zakrivayuschiy-teg-f#readme",
+  "dependencies": {
+    "prettier": "^3.3.3",
+    "stylelint": "^16.9.0"
+  }
+}
