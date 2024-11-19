@@ -76,10 +76,6 @@
   animation: open_dialog 0.3s ease-in-out;
 }
 
-.dialog:not([open]) {
-  opacity: 0;
-  pointer-events: none;
-}
 
 @keyframes heart_scale {
   from {
