@@ -1,14 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
- --main-font: 'Inter-Variable', sans-serif;
- --accent-font: 'PressStart2P-Regular', monospace;
- --accent-color: rgba(0, 0, 0, 1);
- --background-color:  rgba(255, 255, 255, 1);
- --repeating-gradient-color:#d3d3d3;
- --linear-gradient-start-color:#E7E7E7;
- --linear-gradient-end-color: #1a1a1a;
- --linear-gradient-start-position:0.01%;
- --section-width:    clamp(23.4375rem, 13.4804rem + 42.4837vw, 43.75rem);
- --heart-fill:red;
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", monospace;
+  --accent-color: rgba(0, 0, 0, 1);
+  --background-color: rgba(255, 255, 255, 1);
+  --repeating-gradient-color: #d3d3d3;
+  --linear-gradient-start-color: #e7e7e7;
+  --linear-gradient-end-color: #1a1a1a;
+  --linear-gradient-start-position: 0.01%;
+  --section-width: clamp(23.4375rem, 13.4804rem + 42.4837vw, 43.75rem);
+  --heart-fill: rgba(255, 0, 0, 1);
+  --main-font-weight: 400;
+  --title-card-weight: 700;
+  --label-stroke-color: rgba(255, 255, 255, 1);
+  --like-button-hover-color: white;
+  --card-bg-color: white;
+  --mix-bg-color: white;
+  --heart-contour: black;
+  --heart-fill-hover: black;
 }

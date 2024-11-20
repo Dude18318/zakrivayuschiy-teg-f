@@ -1,72 +1,52 @@
-
 :root.theme-dark {
-	--title-card-weight: 785;
-	--main-font-weight: 465;
-	--accent-color: rgba(0, 204, 20, 1);
-	--background-color: rgba(0, 0, 0, 1);
-	--repeating-gradient-color: #000;
-	--linear-gradient-start-color: #007f0c;
-	--linear-gradient-end-color: #004306;
-	--linear-gradient-start-position: 0%;
-	--label-stroke-color: rgba(0, 0, 0, 1);
-	--like-button-hover-color: var(--accent-color);
-	--card-bg-color: black;
-	--mix-bg-color: rgba(0, 204, 20, 1);
-	--heart-contour: rgba(0, 204, 20, 1);
-	--heart-fill-hover: rgba(0, 204, 20, 1);
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--title-card-weight: 785;
-		--accent-color: rgba(0, 204, 20, 1);
-		--background-color: rgba(0, 0, 0, 1);
-		--repeating-gradient-color: #000;
-		--linear-gradient-start-color: #007f0c;
-		--linear-gradient-end-color: #004306;
-		--linear-gradient-start-position: 0%;
-		--label-stroke-color: rgba(0, 0, 0, 1);
-		--like-button-hover-color: var(--accent-color);
-		--card-bg-color: black;
-		--mix-bg-color: rgba(0, 204, 20, 1);
-		--heart-contour: rgba(0, 204, 20, 1);
-		--heart-fill-hover: rgba(0, 204, 20, 1);
-		--main-font-weight: 465;
-	}
+  --title-card-weight: 785;
+  --main-font-weight: 465;
+  --accent-color: rgba(0, 204, 20, 1);
+  --background-color: rgba(0, 0, 0, 1);
+  --repeating-gradient-color: #000;
+  --linear-gradient-start-color: #007f0c;
+  --linear-gradient-end-color: #004306;
+  --linear-gradient-start-position: 0%;
+  --label-stroke-color: rgba(0, 0, 0, 1);
+  --like-button-hover-color: var(--accent-color);
+  --card-bg-color: black;
+  --mix-bg-color: rgba(0, 204, 20, 1);
+  --heart-contour: rgba(0, 204, 20, 1);
+  --heart-fill-hover: rgba(0, 204, 20, 1);
 }
 
 :root.theme-light {
-	--main-font-weight: 400;
-	--title-card-weight: 700;
-	--accent-color: rgba(0, 0, 0, 1);
-	--background-color: rgba(255, 255, 255, 1);
-	--label-stroke-color: rgba(255, 255, 255, 1);
-	--repeating-gradient-color: #d3d3d3;
-	--linear-gradient-start-color: #E7E7E7;
-	--linear-gradient-end-color: #1a1a1a;
-	--linear-gradient-start-position: 0.01%;
-	--like-button-hover-color: white;
-	--card-bg-color: white;
-	--mix-bg-color: white;
-	--heart-contour: black;
-	--heart-fill-hover: black;
+  --main-font-weight: 400;
+  --title-card-weight: 700;
+  --accent-color: rgba(0, 0, 0, 1);
+  --background-color: rgba(255, 255, 255, 1);
+  --label-stroke-color: rgba(255, 255, 255, 1);
+  --repeating-gradient-color: #d3d3d3;
+  --linear-gradient-start-color: #e7e7e7;
+  --linear-gradient-end-color: #1a1a1a;
+  --linear-gradient-start-position: 0.01%;
+  --like-button-hover-color: white;
+  --card-bg-color: white;
+  --mix-bg-color: white;
+  --heart-contour: black;
+  --heart-fill-hover: black;
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-		--main-font-weight: 400;
-		--title-card-weight: 700px;
-		--accent-color: rgba(0, 0, 0, 1);
-		--background-color: rgba(255, 255, 255, 1);
-		--repeating-gradient-color: #d3d3d3;
-		--linear-gradient-start-color: #E7E7E7;
-		--linear-gradient-end-color: #1a1a1a;
-		--linear-gradient-start-position: 0.01%;
-		--label-stroke-color: rgba(255, 255, 255, 1);
-		--like-button-hover-color: white;
-		--card-bg-color: white;
-		--mix-bg-color: white;
-		--heart-contour: black;
-		--heart-fill-hover: black;
-	}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-card-weight: 785;
+    --accent-color: rgba(0, 204, 20, 1);
+    --background-color: rgba(0, 0, 0, 1);
+    --repeating-gradient-color: #000;
+    --linear-gradient-start-color: #007f0c;
+    --linear-gradient-end-color: #004306;
+    --linear-gradient-start-position: 0%;
+    --label-stroke-color: rgba(0, 0, 0, 1);
+    --like-button-hover-color: var(--accent-color);
+    --card-bg-color: black;
+    --mix-bg-color: rgba(0, 204, 20, 1);
+    --heart-contour: rgba(0, 204, 20, 1);
+    --heart-fill-hover: rgba(0, 204, 20, 1);
+    --main-font-weight: 465;
+  }
 }
