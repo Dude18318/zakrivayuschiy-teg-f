@@ -275,7 +275,7 @@
 .label {
   position: absolute;
   top: 24px;
-  right:  clamp(0.6875rem, 0.3794rem + 1.3146vw, 1.5625rem);;
+  right: clamp(0.6875rem, 0.3794rem + 1.3146vw, 1.5625rem);
   z-index: 2;
   opacity: 50%;
   color: var(--accent-color);
