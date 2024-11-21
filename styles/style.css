@@ -88,6 +88,7 @@
   font-size: 14px;
   text-transform: uppercase;
   background-color: transparent;
+  padding:0px;
 }
 
 .button__text {
@@ -249,7 +250,7 @@
 }
 
 .close {
-  padding: 12.5px 0;
+  padding: 11px 0;
   font-family: var(--accent-font, sans-serif);
   font-size: 14px;
   line-height: 90%;
@@ -273,8 +274,8 @@
 
 .label {
   position: absolute;
-  top: 21px;
-  right: 15px;
+  top: 24px;
+  right:  clamp(0.6875rem, 0.3794rem + 1.3146vw, 1.5625rem);;
   z-index: 2;
   opacity: 50%;
   color: var(--accent-color);
@@ -322,7 +323,8 @@
   .dialog {
     padding-left: 40px;
     padding-right: 40px;
-    inline-size: 341px;
+    max-inline-size: 340px;
+    max-block-size: 195px;
   }
 
   .footer-button__save-floppy {
